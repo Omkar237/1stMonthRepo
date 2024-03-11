@@ -4,5 +4,5 @@ the hotel overview page, information page, and final payment page. The hotel ove
 
 I have linked three pages the flow starts from Hotel Overview Page from blue button Containing text "Next Page"
 
-                                                I have hosted on Github Pages and this is the link
+                                                Website is  hosted on Github Pages and this is the link
                                                   " https://omkar237.github.io/Hosting-Website/"
