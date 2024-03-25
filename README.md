@@ -4,6 +4,6 @@ In each page i have used the rem unit
 
 "I HAVE ADDED VALIDATION  FOR PAYMENT IN PAYMENT BUTTONS AND COMLETED WHOLE THREE PAGES"
 
-
-
+"THE UPDATED SITE IS PUBLISHED ON GITHUB PAGESS"
+https://omkar237.github.io/Hosting-Website3/
               
