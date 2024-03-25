@@ -1,0 +1,1008 @@
+
+html {
+    height: 100%; 
+    margin: 0; 
+    font-size: 70%
+}
+
+
+.auto-layout-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    gap: 89.7rem; 
+    position: absolute;
+    width: 122.4rem;
+    height: 6.6rem;
+    left: 5rem;
+    top: 1.5rem;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-container {
+    margin-top: 0%;
+}
+
+.logo-container img{
+    width: 7rem;
+    height: 6rem;
+}
+
+
+.element{
+    margin-left: 84rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+
+#element1, .element2 {
+    margin-left: 2.5rem;
+}
+
+.image-container {
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container .imgnext{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgnext h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.imgnext p{
+    margin-top: 0.2rem;
+}
+.image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.7rem;
+    gap: 1rem;
+    width: 51.5rem;
+    height: 64.1rem;
+    margin-top: 15rem;
+    margin-left: 8rem;
+    background-color: whitesmoke;
+    border-radius: 0.2rem;
+}
+
+.left-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.left-section .reviews {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.left-section .newh2{
+    margin-bottom: 0;
+}
+
+
+.left-section .pone{
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.left-section .ptwo{
+    margin-top: 0;
+    font-size: 1.7rem;
+}
+
+.left-section .pthree{
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+}
+
+.reviews .pfour{
+    margin-left: 9rem;
+}
+.left-section h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.reviews{
+    font-size: 1.5rem;
+}
+.reviews .secondi{
+    font-size: 1rem;
+}
+
+.reviews i{
+    font-size: 1rem;
+}
+
+.left-section #firsti{
+    margin-right: 0.3rem;
+}
+
+
+.right-section {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+    right: 0;
+    padding: 0rem;
+    width: 53.5rem;
+    height: 64.1rem;
+    margin-top: 15rem;
+    margin-right: 7.7rem;
+    margin-left: 1.5rem;
+    background-color: whitesmoke;
+}
+
+.right-section hr {
+    margin-top: 0;
+    width: 100%;
+}
+
+.right-section .rightdivone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rightdivone .rpone{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.rightdivone .rptwo{
+    margin-left: 12rem;
+    font-size: 1.2rem;
+}
+
+.rightdivone .rpthree{
+    margin-left: 12.5rem;
+    font-size: 1.2rem;
+}
+
+.rightdivtwo .rpfour{
+    font-size: 1.7rem;
+}
+.rightdivtwo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+
+.rightdivtwo .rpfive{
+    margin-right: 0.6rem;
+    color: green;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.rightdivone span{
+    color: green;
+    margin-right: 0.5rem;
+}
+
+.right-section .rightdivtwo{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-section h2{
+    margin-bottom: 0;
+}
+
+.right-section .rightpone{
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.right-section h3 span {
+    margin-left: auto;
+}
+
+.right-section label {
+    display: inline-block;
+    width: 50%;
+}
+
+.right-section input {
+    width: 50%;
+}
+
+.right-section button {
+    width: 50%;
+}
+
+.rightdivthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+
+.rightdivthree .radio1{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.7rem;
+    margin-right: 1rem;
+}
+
+.rightdivthree .bookradio{
+    font-size: 1.5rem;
+}
+
+.rightdivthree .innerone{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.rightdivthree .inner{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.5rem;
+    height: 10%;
+}
+
+.rightdivthree .innerimg{
+    width: 10rem;
+    height: 6rem;
+    margin-left: 0.5rem;
+}
+
+.rightdivpfirst{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.rightdivpfirst .midiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.rightdivpfirst label{
+    width: 12rem;
+    font-size: 1.5rem;
+}
+
+.rightdivpfirst #first-name, #last-name{
+    width: 13rem;
+    height: 2.5rem;
+}
+
+.rightdivpfirst #phone{
+    width: 16rem;
+    height: 2.5rem;
+}
+
+new90{
+    color: red;
+}
+
+.rightdivthree{
+    margin-top: 5rem;
+}
+.rightdivthree label{
+    width: 12.5rem;
+    font-size: 1.5rem;
+}
+
+
+.rightdivthree #card-number{
+    width: 100%;
+}
+
+.rightdivthree .cvcdiv{
+    margin-left: 8.2rem;
+}
+
+.rightdivthree input{
+    height: 2.5rem;
+}
+
+.rightdivthree .expdiv{
+    margin-left: 5.2rem;
+}
+
+.rightdivthree #cvc, #exp-date{
+    width: 9.3rem;
+}
+
+.right-section .lasth3{
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.right-section .lastpone{
+    margin-top: 0.4rem;
+    font-size: 1.3rem;
+}
+
+
+.right-section .lastdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.lastdiv p{
+    margin-top: 0.3;
+    font-size: 1rem;
+}
+
+.lastdiv button{
+    width: 100%;
+    height: 3.5rem;
+}
+
+
+
+.lastdiv .lastdivtwo{
+    margin-left: 16rem;
+}
+
+.lastdiv .lastbutton{
+    background-color: #07689F;
+    color: white;
+}
+
+.lastdiv .lastbuttontwo{
+    background-color:whitesmoke;
+    color: #07689F;
+    border: 2px solid #07689F;
+}
+
+.lastpone a{
+    margin-left: 1.5rem;
+}
+
+.lastdiv i{
+    margin-left: 0.5rem;
+}
+
+
+
+.footer-content1 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;    
+    padding: 20px;
+    width: 90%;
+    margin-left: 6rem;
+}
+
+.footer-text {
+    flex: 1;
+}
+
+.footer-text h3 {
+    margin-bottom: 10px;
+    color: #07689F;
+    font-size: 2rem;
+}
+
+.footer-text p{
+    font-size: 1.4rem;
+}
+
+
+
+.footer-image img {
+    width: 200px; /* Adjust width as needed */
+    height: auto;
+    margin-left: 20px; /* Add some space between text and image */
+}
+
+
+.footer-content2 {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 90px;
+    font-size: 1.5rem;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-content3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.footer-content3 .footer-column {
+    flex: 1;
+}
+
+.footer-content3 img {
+    width: 230px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer-content3 .footimg2{
+    margin-left: 2rem;
+}
+
+.footer-content3 input[type="text"] {
+    width: 30%; /* Adjust input width as needed */
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-content3 button {
+    padding: 10px 20px;
+    background-color: #333; /* Example button color */
+    color: white;
+    background-color: #07689F;
+    border: none;
+    cursor: pointer;
+}
+.footer-content3 .footer-column{
+    margin-left: 12rem;
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .auto-layout-header {
+        width: 100%;
+        left: 0;
+    }
+
+    .element{
+        margin-left: 8rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    .left-section {
+        width: 100%;
+        margin-left: -1rem;
+        margin-right: 0;
+    }
+    .right-section{
+        top: 63rem;
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .left-section {
+        margin-top: 12rem; 
+    }
+    
+    .rightdivpfirst{
+        width: 100%;
+        
+    }
+
+    .rightdivpfirst #first-name, #last-name{
+        width: 8rem;
+        height: 2.5rem;
+    }
+    
+    .rightdivpfirst #phone{
+        width: 10rem;
+        height: 2.5rem;
+    }
+
+    .rightdivthree #card-number{
+        width: 70%;
+    }
+    
+    .rightdivthree .cvcdiv{
+        margin-left: 0.7rem;
+    }
+    
+    .rightdivthree input{
+        height: 2.5rem;
+    }
+    
+    .rightdivthree .expdiv{
+        margin-left: 0.2rem;
+    }
+    
+    .right-section .lastdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+
+    .footer {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+
+    .footer-content1 {
+        display: flex;
+        align-items: center;
+        margin-top: 70rem;    
+        padding: 20px;
+        width: 90%;
+        margin-left: 2rem;
+    }
+    
+    .footer-text {
+        flex: 1;
+    }
+    
+    .footer-text h3 {
+        margin-bottom: 10px;
+        color: #07689F;
+        font-size: 2rem;
+    }
+    
+    .footer-text p{
+        font-size: 1.4rem;
+    }
+    
+    
+    
+    .footer-image img {
+        width: 200px; /* Adjust width as needed */
+        height: auto;
+        margin-left: 20px; /* Add some space between text and image */
+    }
+    
+    
+    .footer-content2 {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    
+    .footer-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 90px;
+        font-size: 1.5rem;
+    }
+    
+    .footer-column {
+        flex: 1;
+    }
+    
+    .footer-column h4 {
+        margin-bottom: 10px;
+    }
+    
+    .footer-column ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+    }
+    
+    .footer-column ul li {
+        margin-bottom: 5px;
+    }
+    
+    .footer-content3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px; /* Adjust as needed */
+        margin-left: 0rem;
+        width: 60%;
+    }
+    
+    .footer-content3 .footer-column {
+        flex: 1;
+    }
+    
+    .footer-content3 img {
+        width: 230px; /* Adjust image width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    .footer-content3 .footimg2{
+        margin-left: 2rem;
+    }
+    
+    .footer-content3 input[type="text"] {
+        width: 100%; /* Adjust input width as needed */
+        height: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    .footer-content3 button {
+        padding: 10px 20px;
+        background-color: #333; /* Example button color */
+        color: white;
+        background-color: #07689F;
+        border: none;
+        cursor: pointer;
+    }
+    .footer-content3 .footer-column{
+        margin-left: 12rem;
+    }
+    
+    
+    
+    
+}
+
+@media only screen and (min-width: 551px) and (max-width: 1200px){
+
+    .auto-layout-header {
+        width: 100%;
+        left: 0;
+    }
+
+    .element{
+        margin-left: 8rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    .left-section {
+        width: 100%;
+        margin-left: -1rem;
+        margin-right: 0;
+    }
+    .right-section{
+        top: 63rem;
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .left-section {
+        margin-top: 12rem; 
+    }
+    
+    .rightdivpfirst{
+        width: 100%;
+        
+    }
+
+    .rightdivpfirst #first-name, #last-name{
+        width: 8rem;
+        height: 2.5rem;
+    }
+    
+    .rightdivpfirst #phone{
+        width: 10rem;
+        height: 2.5rem;
+    }
+
+    .rightdivthree #card-number{
+        width: 70%;
+    }
+    
+    .rightdivthree .cvcdiv{
+        margin-left: 0.7rem;
+    }
+    
+    .rightdivthree input{
+        height: 2.5rem;
+    }
+    
+    .rightdivthree .expdiv{
+        margin-left: 0.2rem;
+    }
+    
+    .right-section .lastdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+
+    .footer {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+
+    .footer-content1 {
+        display: flex;
+        align-items: center;
+        margin-top: 70rem;    
+        padding: 20px;
+        width: 90%;
+        margin-left: 2rem;
+    }
+    
+    .footer-text {
+        flex: 1;
+    }
+    
+    .footer-text h3 {
+        margin-bottom: 10px;
+        color: #07689F;
+        font-size: 2rem;
+    }
+    
+    .footer-text p{
+        font-size: 1.4rem;
+    }
+    
+    
+    
+    .footer-image img {
+        width: 200px; /* Adjust width as needed */
+        height: auto;
+        margin-left: 20px; /* Add some space between text and image */
+    }
+    
+    
+    .footer-content2 {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    
+    .footer-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 90px;
+        font-size: 1.5rem;
+    }
+    
+    .footer-column {
+        flex: 1;
+    }
+    
+    .footer-column h4 {
+        margin-bottom: 10px;
+    }
+    
+    .footer-column ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+    }
+    
+    .footer-column ul li {
+        margin-bottom: 5px;
+    }
+    
+    .footer-content3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px; /* Adjust as needed */
+        margin-left: 0rem;
+        width: 60%;
+    }
+    
+    .footer-content3 .footer-column {
+        flex: 1;
+    }
+    
+    .footer-content3 img {
+        width: 230px; /* Adjust image width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    .footer-content3 .footimg2{
+        margin-left: 2rem;
+    }
+    
+    .footer-content3 input[type="text"] {
+        width: 100%; /* Adjust input width as needed */
+        height: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    .footer-content3 button {
+        padding: 10px 20px;
+        background-color: #333; /* Example button color */
+        color: white;
+        background-color: #07689F;
+        border: none;
+        cursor: pointer;
+    }
+    .footer-content3 .footer-column{
+        margin-left: 12rem;
+    }
+    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px){
+
+    .auto-layout-header {
+        width: 100%;
+        left: 0;
+    }
+
+    .element{
+        margin-left: 50rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        right: 0;
+    }
+
+    .left-section {
+        width: 100%;
+        height: 50%;
+        margin-left: -1rem;
+        margin-right: 0;
+    }
+    .right-section{
+        top: 92rem;
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .left-section {
+        margin-top: 12rem; 
+    }
+    
+    .rightdivpfirst{
+        width: 100%;
+        
+    }
+
+    .rightdivpfirst #first-name, #last-name{
+        width: 30rem;
+        height: 2.5rem;
+    }
+    
+    .rightdivpfirst #phone{
+        width: 15rem;
+        height: 2.5rem;
+    }
+
+    .rightdivthree #card-number{
+        width: 100%;
+    }
+    
+    .rightdivthree .cvcdiv{
+        margin-left: 2rem;
+    }
+
+    .cvcdiv #cvc{
+        width: 25rem;
+    }
+
+    .expdiv #exp-date{
+        width: 25rem;
+    }
+        
+    .rightdivthree .expdiv{
+        margin-left: 0.2rem;
+    }
+    
+    .right-section .lastdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+
+    .footer {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    .footer-row {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 1rem;
+        margin-top: 82rem;
+    }
+
+    .footer-column {
+        max-width: 80%;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .footer-column {
+        flex: 1 0 30%; 
+        max-width: 30%; 
+    }
+
+   
+
+    .lasth3{
+        margin-left: 12rem;
+    }
+
+    .lastpone{
+        margin-left: 12rem;
+    } 
+
+    .lastdiv{
+        margin-left: 12rem;
+    }
+}
+
